@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 now = datetime.now()
 
-# driver = webdriver.Chrome(executable_path="./chromedriver")
+driver = webdriver.Chrome(executable_path="./chromedriver")
 
 #Keep the current chrome session
 options = webdriver.ChromeOptions()
